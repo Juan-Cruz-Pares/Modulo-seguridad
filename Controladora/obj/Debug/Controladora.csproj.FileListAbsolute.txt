@@ -4,3 +4,17 @@ C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\ModuloSeguridad\Controlador
 C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\ModuloSeguridad\Controladora\obj\Debug\Controladora.csproj.CoreCompileInputs.cache
 C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\ModuloSeguridad\Controladora\obj\Debug\Controladora.dll
 C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\ModuloSeguridad\Controladora\obj\Debug\Controladora.pdb
+C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\Controladora\bin\Debug\Controladora.dll.config
+C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\Controladora\bin\Debug\Controladora.dll
+C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\Controladora\bin\Debug\Controladora.pdb
+C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\Controladora\bin\Debug\EntityFramework.dll
+C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\Controladora\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\Controladora\bin\Debug\Modelo.dll
+C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\Controladora\bin\Debug\EntityFramework.xml
+C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\Controladora\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\Controladora\bin\Debug\Modelo.pdb
+C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\Controladora\obj\Debug\Controladora.csproj.AssemblyReference.cache
+C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\Controladora\obj\Debug\Controladora.csproj.CoreCompileInputs.cache
+C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\Controladora\obj\Debug\Controladora.csproj.CopyComplete
+C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\Controladora\obj\Debug\Controladora.dll
+C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\Controladora\obj\Debug\Controladora.pdb

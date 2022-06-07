@@ -18,3 +18,14 @@ C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\Vista\obj\Debug\Vista.cspro
 C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\Vista\obj\Debug\Vista.csproj.CoreCompileInputs.cache
 C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\Vista\obj\Debug\Vista.exe
 C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\Vista\obj\Debug\Vista.pdb
+C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\Vista\bin\Debug\Controladora.dll
+C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\Vista\bin\Debug\EntityFramework.dll
+C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\Vista\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\Vista\bin\Debug\Modelo.dll
+C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\Vista\bin\Debug\Controladora.pdb
+C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\Vista\bin\Debug\Controladora.dll.config
+C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\Vista\bin\Debug\EntityFramework.xml
+C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\Vista\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\Vista\bin\Debug\Modelo.pdb
+C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\Vista\bin\Debug\Modelo.dll.config
+C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\Vista\obj\Debug\Vista.csproj.CopyComplete
