@@ -16,3 +16,15 @@ C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\Modelo\obj\Debug\Modelo.csp
 C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\Modelo\obj\Debug\Modelo.csproj.CopyComplete
 C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\Modelo\obj\Debug\Modelo.dll
 C:\Users\pares\Desktop\Facultad\POO\Modulo seguridad\Modelo\obj\Debug\Modelo.pdb
+C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Modelo\bin\Debug\Modelo.dll.config
+C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Modelo\bin\Debug\Modelo.dll
+C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Modelo\bin\Debug\Modelo.pdb
+C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Modelo\bin\Debug\EntityFramework.dll
+C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Modelo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Modelo\bin\Debug\EntityFramework.xml
+C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Modelo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Modelo\obj\Debug\Modelo.csproj.CopyComplete
+C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Modelo\obj\Debug\Modelo.dll
+C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Modelo\obj\Debug\Modelo.pdb
