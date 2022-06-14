@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace Vista
 {
-    public partial class Form1 : Form
+    public partial class Index : Form
     {
-        public Form1()
+        public Index()
         {
             InitializeComponent();
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Show();
         }
     }
 }

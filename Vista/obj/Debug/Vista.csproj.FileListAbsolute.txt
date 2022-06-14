@@ -50,3 +50,5 @@ C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Vista\obj\Debug\Vista.cspro
 C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Vista\obj\Debug\Vista.csproj.CopyComplete
 C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Vista\obj\Debug\Vista.exe
 C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Vista\obj\Debug\Vista.pdb
+C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Vista\obj\Debug\Vista.Index.resources
+C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Vista\obj\Debug\Vista.Login.resources
