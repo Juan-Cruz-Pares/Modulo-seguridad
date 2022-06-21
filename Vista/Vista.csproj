@@ -74,6 +74,12 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="MenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuPrincipal.Designer.cs">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Index.resx">
