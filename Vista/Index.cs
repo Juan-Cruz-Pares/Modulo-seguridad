@@ -22,5 +22,11 @@ namespace Vista
             Login login = new Login();
             login.Show();
         }
+
+        private void btnRegister_Click(object sender, EventArgs e)
+        {
+            Register register = new Register();
+            register.Show();
+        }
     }
 }
