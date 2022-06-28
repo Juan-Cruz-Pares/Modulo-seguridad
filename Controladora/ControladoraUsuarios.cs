@@ -26,5 +26,11 @@ namespace Controladora
         {
             return SingletonContexto.obtener_instancia().Contexto.Usuarios.ToList();  
         }
+
+        public void addUser(Usuario u)
+        {
+            SingletonContexto.obtener_instancia().Contexto.Usuarios.Add(u);
+            SingletonContexto.obtener_instancia().Contexto.SaveChanges();
+        }
     }
 }
