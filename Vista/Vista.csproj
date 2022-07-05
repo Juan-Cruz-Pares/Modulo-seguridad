@@ -62,6 +62,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormularioGestionarUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioGestionarUsuarios.Designer.cs">
+      <DependentUpon>FormularioGestionarUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioListadoClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioListadoClientes.Designer.cs">
+      <DependentUpon>FormularioListadoClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioUsuario.Designer.cs">
+      <DependentUpon>FormularioUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Index.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +111,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuPrincipal.resx">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -36,6 +36,7 @@ namespace Vista
 
             if (u != null)
             {
+                ControladoraUsuarios.obtenerInstancia().agregarUsuarioActual(u);
                 MenuPrincipal menu = new MenuPrincipal();
                 menu.Show();
                 this.Close();
