@@ -27,15 +27,15 @@ namespace Vista
 
         private void btnAccept_Click(object sender, EventArgs e)
         {
-            if (!ValidateEmail(email.Text)) {
+            if (!ValidateEmail(email.Text)) {//Validamos formato de email
 
                 MessageBox.Show("Formato de email no valido");
                 return;
             }
 
-            if (name.Text != "" && dni.Text != "" && password.Text != "") {
+            if (name.Text != "" && dni.Text != "" && password.Text != "") { //Validamos campos incompletos
 
-                List<Perfil> perfiles = ControladoraPerfiles.obtenerInstancia().getListPerfil();
+                List<Perfil> perfiles = ControladoraPerfiles.obtenerInstancia().getListPerfil();// buscamos lista de perfiles
                 Perfil p = perfiles.Find(x => x.Nombre == "Cliente");
 
                 Usuario u = new Usuario();
@@ -44,9 +44,9 @@ namespace Vista
                 u.Email = email.Text;
                 u.Dni = dni.Text;
                 u.Contraseña = password.Text;
-                u.Perfil = p;
+                u.Perfil = p;//Seteamos que sea cliente
 
-                ControladoraUsuarios.obtenerInstancia().addUser(u);
+                ControladoraUsuarios.obtenerInstancia().addUser(u);//agregamos cliente
 
                 MessageBox.Show("Registro correcto");
                 this.Close();
