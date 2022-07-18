@@ -22,7 +22,21 @@ namespace Vista
         private void MenuPrincipal_Load(object sender, EventArgs e)
         {
             Usuario usuario = ControladoraUsuarios.obtenerInstancia().usuarioActual;
-            List<Formulario> formularios = usuario.Perfil.Formulario.ToList();
+            List<Formulario> formularios = usuario.Perfil.Formulario.ToList();//Formularios habilitados para el perfil del usuario
+
+            formularios.ForEach((formulario) =>
+            {
+                foreach (ToolStripMenuItem categoria in menuStrip1.Items)
+                {                    
+                    foreach (ToolStripMenuItem form in categoria.DropDownItems)
+                    {                        
+                        if (form.Name == formulario.NombreSistema)
+                        {
+                            form.Enabled = true;
+                        }
+                    }
+                }
+            });
         }
 
         private void gestionarToolStripMenuItem_Click(object sender, EventArgs e)
