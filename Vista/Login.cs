@@ -26,16 +26,18 @@ namespace Vista
 
         private void btnAccept_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(username.Text) || string.IsNullOrEmpty(password.Text))
+            if (string.IsNullOrEmpty(username.Text) || string.IsNullOrEmpty(password.Text))//validamos campos incompletos
             {
                 MessageBox.Show("Datos incompletos");
+                return;
             }   
             
-            List<Usuario> listUser = ControladoraUsuarios.obtenerInstancia().getListUser();
+            List<Usuario> listUser = ControladoraUsuarios.obtenerInstancia().getListUser(); //obtenemos lista de usuarios
             Usuario u = listUser.Find(x => (x.Nombre == username.Text || x.Email == username.Text) && x.Contraseña == password.Text);
 
-            if (u != null)
+            if (u != null)// si encontro un usuario para los datos que ingreso
             {
+                ControladoraUsuarios.obtenerInstancia().agregarUsuarioActual(u);
                 MenuPrincipal menu = new MenuPrincipal();
                 menu.Show();
                 this.Close();
@@ -43,8 +45,7 @@ namespace Vista
             else
             {
                 MessageBox.Show("Datos incorrectos");
-
-            };
+            }
         }
     }
 }

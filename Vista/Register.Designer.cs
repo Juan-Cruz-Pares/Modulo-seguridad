@@ -43,7 +43,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(179, 44);
+            this.label1.Location = new System.Drawing.Point(99, 48);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 0;
@@ -51,28 +51,28 @@
             // 
             // name
             // 
-            this.name.Location = new System.Drawing.Point(274, 41);
+            this.name.Location = new System.Drawing.Point(194, 45);
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(100, 20);
             this.name.TabIndex = 1;
             // 
             // email
             // 
-            this.email.Location = new System.Drawing.Point(274, 67);
+            this.email.Location = new System.Drawing.Point(194, 71);
             this.email.Name = "email";
             this.email.Size = new System.Drawing.Size(100, 20);
             this.email.TabIndex = 2;
             // 
             // dni
             // 
-            this.dni.Location = new System.Drawing.Point(274, 93);
+            this.dni.Location = new System.Drawing.Point(194, 97);
             this.dni.Name = "dni";
             this.dni.Size = new System.Drawing.Size(100, 20);
             this.dni.TabIndex = 3;
             // 
             // password
             // 
-            this.password.Location = new System.Drawing.Point(274, 119);
+            this.password.Location = new System.Drawing.Point(194, 123);
             this.password.Name = "password";
             this.password.PasswordChar = '*';
             this.password.Size = new System.Drawing.Size(100, 20);
@@ -81,7 +81,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(179, 70);
+            this.label2.Location = new System.Drawing.Point(99, 74);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(32, 13);
             this.label2.TabIndex = 5;
@@ -90,7 +90,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(179, 96);
+            this.label3.Location = new System.Drawing.Point(99, 100);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(23, 13);
             this.label3.TabIndex = 6;
@@ -99,7 +99,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(179, 122);
+            this.label4.Location = new System.Drawing.Point(99, 126);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(53, 13);
             this.label4.TabIndex = 7;
@@ -107,7 +107,7 @@
             // 
             // btnAccept
             // 
-            this.btnAccept.Location = new System.Drawing.Point(182, 199);
+            this.btnAccept.Location = new System.Drawing.Point(102, 170);
             this.btnAccept.Name = "btnAccept";
             this.btnAccept.Size = new System.Drawing.Size(75, 23);
             this.btnAccept.TabIndex = 10;
@@ -117,7 +117,7 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(299, 199);
+            this.btnCancel.Location = new System.Drawing.Point(219, 170);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 11;
@@ -129,7 +129,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(416, 263);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnAccept);
             this.Controls.Add(this.label4);

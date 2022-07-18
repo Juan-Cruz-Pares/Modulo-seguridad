@@ -10,7 +10,7 @@ namespace Controladora
     public class ControladoraUsuarios
     {
         private static ControladoraUsuarios _instance;
-
+        public Usuario usuarioActual = null;
         public ControladoraUsuarios() { }
 
         public static ControladoraUsuarios obtenerInstancia()
@@ -31,6 +31,11 @@ namespace Controladora
         {
             SingletonContexto.obtener_instancia().Contexto.Usuarios.Add(u);
             SingletonContexto.obtener_instancia().Contexto.SaveChanges();
+        }
+
+        public void agregarUsuarioActual(Usuario u)
+        {
+            usuarioActual = u;
         }
     }
 }
