@@ -53,4 +53,30 @@ C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Vista\obj\Debug\Vista.pdb
 C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Vista\obj\Debug\Vista.Index.resources
 C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Vista\obj\Debug\Vista.Login.resources
 C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Vista\obj\Debug\Vista.Register.resources
+<<<<<<< HEAD
+C:\Users\JUan\Desktop\Modulo-seguridad\Vista\bin\Debug\Vista.exe.config
+C:\Users\JUan\Desktop\Modulo-seguridad\Vista\bin\Debug\Vista.exe
+C:\Users\JUan\Desktop\Modulo-seguridad\Vista\bin\Debug\Vista.pdb
+C:\Users\JUan\Desktop\Modulo-seguridad\Vista\bin\Debug\Controladora.dll
+C:\Users\JUan\Desktop\Modulo-seguridad\Vista\bin\Debug\EntityFramework.dll
+C:\Users\JUan\Desktop\Modulo-seguridad\Vista\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\JUan\Desktop\Modulo-seguridad\Vista\bin\Debug\Modelo.dll
+C:\Users\JUan\Desktop\Modulo-seguridad\Vista\bin\Debug\Controladora.pdb
+C:\Users\JUan\Desktop\Modulo-seguridad\Vista\bin\Debug\Controladora.dll.config
+C:\Users\JUan\Desktop\Modulo-seguridad\Vista\bin\Debug\EntityFramework.xml
+C:\Users\JUan\Desktop\Modulo-seguridad\Vista\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\JUan\Desktop\Modulo-seguridad\Vista\bin\Debug\Modelo.pdb
+C:\Users\JUan\Desktop\Modulo-seguridad\Vista\bin\Debug\Modelo.dll.config
+C:\Users\JUan\Desktop\Modulo-seguridad\Vista\obj\Debug\Vista.csproj.AssemblyReference.cache
+C:\Users\JUan\Desktop\Modulo-seguridad\Vista\obj\Debug\Vista.Index.resources
+C:\Users\JUan\Desktop\Modulo-seguridad\Vista\obj\Debug\Vista.Login.resources
+C:\Users\JUan\Desktop\Modulo-seguridad\Vista\obj\Debug\Vista.Properties.Resources.resources
+C:\Users\JUan\Desktop\Modulo-seguridad\Vista\obj\Debug\Vista.Register.resources
+C:\Users\JUan\Desktop\Modulo-seguridad\Vista\obj\Debug\Vista.csproj.GenerateResource.cache
+C:\Users\JUan\Desktop\Modulo-seguridad\Vista\obj\Debug\Vista.csproj.CoreCompileInputs.cache
+C:\Users\JUan\Desktop\Modulo-seguridad\Vista\obj\Debug\Vista.csproj.CopyComplete
+C:\Users\JUan\Desktop\Modulo-seguridad\Vista\obj\Debug\Vista.exe
+C:\Users\JUan\Desktop\Modulo-seguridad\Vista\obj\Debug\Vista.pdb
+=======
 C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Vista\obj\Debug\Vista.MenuPrincipal.resources
+>>>>>>> development
