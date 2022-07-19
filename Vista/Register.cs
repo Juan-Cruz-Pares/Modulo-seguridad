@@ -43,7 +43,7 @@ namespace Vista
                 u.Nombre = name.Text;
                 u.Email = email.Text;
                 u.Dni = dni.Text;
-                u.Contraseña = password.Text;
+                u.Contraseña = Seguridad.Encriptar(password.Text);
                 u.Perfil = p;//Seteamos que sea cliente
 
                 ControladoraUsuarios.obtenerInstancia().addUser(u);//agregamos cliente

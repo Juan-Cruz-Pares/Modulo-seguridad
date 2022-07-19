@@ -33,11 +33,11 @@ namespace Vista
             }   
             
             List<Usuario> listUser = ControladoraUsuarios.obtenerInstancia().getListUser(); //obtenemos lista de usuarios
-            Usuario u = listUser.Find(x => (x.Nombre == username.Text || x.Email == username.Text) && x.Contraseña == password.Text);
+            Usuario u = listUser.Find(x => (x.Nombre == username.Text || x.Email == username.Text) && Seguridad.DesEncriptar(x.Contraseña) == password.Text);
 
             if (u != null)// si encontro un usuario para los datos que ingreso
             {
-                ControladoraUsuarios.obtenerInstancia().agregarUsuarioActual(u);
+                ControladoraUsuarios.obtenerInstancia().agregarUsuarioActual(u);//agrega el usurio actual en sesion
                 MenuPrincipal menu = new MenuPrincipal();
                 menu.Show();
                 this.Close();
