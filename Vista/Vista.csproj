@@ -68,11 +68,29 @@
     <Compile Include="FormularioGestionarUsuarios.Designer.cs">
       <DependentUpon>FormularioGestionarUsuarios.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormularioListadoProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioListadoProductos.Designer.cs">
+      <DependentUpon>FormularioListadoProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioGestionProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioGestionProductos.Designer.cs">
+      <DependentUpon>FormularioGestionProductos.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormularioListadoClientes.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormularioListadoClientes.Designer.cs">
       <DependentUpon>FormularioListadoClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioUsuario.Designer.cs">
+      <DependentUpon>FormularioUsuario.cs</DependentUpon>
     </Compile>
     <Compile Include="Index.cs">
       <SubType>Form</SubType>
@@ -103,8 +121,17 @@
     <EmbeddedResource Include="FormularioGestionarUsuarios.resx">
       <DependentUpon>FormularioGestionarUsuarios.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormularioListadoProductos.resx">
+      <DependentUpon>FormularioListadoProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioGestionProductos.resx">
+      <DependentUpon>FormularioGestionProductos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormularioListadoClientes.resx">
       <DependentUpon>FormularioListadoClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioUsuario.resx">
+      <DependentUpon>FormularioUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Index.resx">
       <DependentUpon>Index.cs</DependentUpon>

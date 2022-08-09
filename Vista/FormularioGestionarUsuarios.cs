@@ -33,7 +33,7 @@ namespace Vista
                 else if (p.NombreSistema == "btnModificar") btnModificar.Enabled = true;
             });
 
-            comboPerfil.DataSource = ControladoraPerfiles.obtenerInstancia().getListPerfil();
+            comboPerfil.DataSource = ControladoraPerfiles.obtenerInstancia().getListPerfil().Where(p=>p.Nombre != "Super Admin").ToList();
             comboPerfil.DisplayMember = "Nombre";
         }
 

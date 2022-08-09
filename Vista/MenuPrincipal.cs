@@ -29,7 +29,7 @@ namespace Vista
                 foreach (ToolStripMenuItem categoria in menuStrip1.Items)
                 {                    
                     foreach (ToolStripMenuItem form in categoria.DropDownItems)
-                    {                        
+                    {                     
                         if (form.Name == formulario.NombreSistema)
                         {
                             form.Enabled = true;
@@ -48,6 +48,24 @@ namespace Vista
         private void listarClientesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FormularioListadoClientes form = new FormularioListadoClientes();
+            form.Show();
+        }
+
+        private void FormularioGestionProductos_Click(object sender, EventArgs e)
+        {
+            FormularioGestionProductos form = new FormularioGestionProductos();
+            form.Show();
+        }
+
+        private void FormularioListadoProductos_Click(object sender, EventArgs e)
+        {
+            FormularioListadoProductos form = new FormularioListadoProductos();
+            form.Show();
+        }
+
+        private void FormularioUsuario_Click(object sender, EventArgs e)
+        {
+            FormularioUsuario form = new FormularioUsuario();
             form.Show();
         }
     }

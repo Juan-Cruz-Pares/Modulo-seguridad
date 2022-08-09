@@ -176,7 +176,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(751, 450);
+            this.ClientSize = new System.Drawing.Size(756, 450);
             this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -192,7 +192,7 @@
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.dataGridView1);
             this.Name = "FormularioGestionarUsuarios";
-            this.Text = "FormularioGestionarUsuario";
+            this.Text = "Gestion de usuarios";
             this.Load += new System.EventHandler(this.FormularioGestionarUsuarios_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

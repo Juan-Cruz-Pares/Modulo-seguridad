@@ -65,9 +65,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(73, 87);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 13);
+            this.label2.Size = new System.Drawing.Size(61, 13);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Password";
+            this.label2.Text = "Contraseña";
             // 
             // btnAccept
             // 
@@ -75,7 +75,7 @@
             this.btnAccept.Name = "btnAccept";
             this.btnAccept.Size = new System.Drawing.Size(75, 23);
             this.btnAccept.TabIndex = 4;
-            this.btnAccept.Text = "Accept";
+            this.btnAccept.Text = "Aceptar";
             this.btnAccept.UseVisualStyleBackColor = true;
             this.btnAccept.Click += new System.EventHandler(this.btnAccept_Click);
             // 
@@ -85,7 +85,7 @@
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 5;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = "Cancelar";
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
@@ -101,7 +101,7 @@
             this.Controls.Add(this.password);
             this.Controls.Add(this.username);
             this.Name = "Login";
-            this.Text = "Login";
+            this.Text = "Logueo";
             this.ResumeLayout(false);
             this.PerformLayout();
 

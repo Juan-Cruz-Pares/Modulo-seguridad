@@ -32,6 +32,9 @@
             this.usuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.FormularioGestionarUsuarios = new System.Windows.Forms.ToolStripMenuItem();
             this.FormularioListadoClientes = new System.Windows.Forms.ToolStripMenuItem();
+            this.FormularioGestionProductos = new System.Windows.Forms.ToolStripMenuItem();
+            this.FormularioListadoProductos = new System.Windows.Forms.ToolStripMenuItem();
+            this.FormularioUsuario = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -41,7 +44,7 @@
             this.usuarioToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(364, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(314, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -49,36 +52,63 @@
             // 
             this.usuarioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.FormularioGestionarUsuarios,
-            this.FormularioListadoClientes});
+            this.FormularioListadoClientes,
+            this.FormularioGestionProductos,
+            this.FormularioListadoProductos,
+            this.FormularioUsuario});
             this.usuarioToolStripMenuItem.Name = "usuarioToolStripMenuItem";
-            this.usuarioToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
-            this.usuarioToolStripMenuItem.Text = "Usuario";
+            this.usuarioToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
+            this.usuarioToolStripMenuItem.Text = "Opciones";
             // 
             // FormularioGestionarUsuarios
             // 
             this.FormularioGestionarUsuarios.Enabled = false;
             this.FormularioGestionarUsuarios.Name = "FormularioGestionarUsuarios";
-            this.FormularioGestionarUsuarios.Size = new System.Drawing.Size(180, 22);
-            this.FormularioGestionarUsuarios.Text = "Gestionar";
+            this.FormularioGestionarUsuarios.Size = new System.Drawing.Size(185, 22);
+            this.FormularioGestionarUsuarios.Text = "Gestionar usuarios";
             this.FormularioGestionarUsuarios.Click += new System.EventHandler(this.gestionarToolStripMenuItem_Click);
             // 
             // FormularioListadoClientes
             // 
             this.FormularioListadoClientes.Enabled = false;
             this.FormularioListadoClientes.Name = "FormularioListadoClientes";
-            this.FormularioListadoClientes.Size = new System.Drawing.Size(180, 22);
+            this.FormularioListadoClientes.Size = new System.Drawing.Size(185, 22);
             this.FormularioListadoClientes.Text = "Listar clientes";
             this.FormularioListadoClientes.Click += new System.EventHandler(this.listarClientesToolStripMenuItem_Click);
+            // 
+            // FormularioGestionProductos
+            // 
+            this.FormularioGestionProductos.Enabled = false;
+            this.FormularioGestionProductos.Name = "FormularioGestionProductos";
+            this.FormularioGestionProductos.Size = new System.Drawing.Size(185, 22);
+            this.FormularioGestionProductos.Text = "Agregar productos";
+            this.FormularioGestionProductos.Click += new System.EventHandler(this.FormularioGestionProductos_Click);
+            // 
+            // FormularioListadoProductos
+            // 
+            this.FormularioListadoProductos.Enabled = false;
+            this.FormularioListadoProductos.Name = "FormularioListadoProductos";
+            this.FormularioListadoProductos.Size = new System.Drawing.Size(185, 22);
+            this.FormularioListadoProductos.Text = "Listado de productos";
+            this.FormularioListadoProductos.Click += new System.EventHandler(this.FormularioListadoProductos_Click);
+            // 
+            // FormularioUsuario
+            // 
+            this.FormularioUsuario.Enabled = false;
+            this.FormularioUsuario.Name = "FormularioUsuario";
+            this.FormularioUsuario.Size = new System.Drawing.Size(185, 22);
+            this.FormularioUsuario.Text = "Modificar usuario";
+            this.FormularioUsuario.Click += new System.EventHandler(this.FormularioUsuario_Click);
             // 
             // MenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(364, 230);
+            this.ClientSize = new System.Drawing.Size(314, 216);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MenuPrincipal";
-            this.Text = "MenuPrincipal";
+            this.Text = "Menu principal";
             this.Load += new System.EventHandler(this.MenuPrincipal_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -93,5 +123,8 @@
         private System.Windows.Forms.ToolStripMenuItem usuarioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem FormularioGestionarUsuarios;
         private System.Windows.Forms.ToolStripMenuItem FormularioListadoClientes;
+        private System.Windows.Forms.ToolStripMenuItem FormularioGestionProductos;
+        private System.Windows.Forms.ToolStripMenuItem FormularioListadoProductos;
+        private System.Windows.Forms.ToolStripMenuItem FormularioUsuario;
     }
 }

@@ -2,7 +2,7 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 06/14/2022 19:24:57
+-- Date Created: 08/09/2022 14:34:58
 -- Generated from EDMX file: C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Modelo\Contexto.edmx
 -- --------------------------------------------------
 
@@ -26,6 +26,12 @@ GO
 IF OBJECT_ID(N'[dbo].[FK_FormularioPermiso_Permiso]', 'F') IS NOT NULL
     ALTER TABLE [dbo].[FormularioPermiso] DROP CONSTRAINT [FK_FormularioPermiso_Permiso];
 GO
+IF OBJECT_ID(N'[dbo].[FK_PerfilFormulario_Perfil]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[PerfilFormulario] DROP CONSTRAINT [FK_PerfilFormulario_Perfil];
+GO
+IF OBJECT_ID(N'[dbo].[FK_PerfilFormulario_Formulario]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[PerfilFormulario] DROP CONSTRAINT [FK_PerfilFormulario_Formulario];
+GO
 
 -- --------------------------------------------------
 -- Dropping existing tables
@@ -45,6 +51,9 @@ IF OBJECT_ID(N'[dbo].[Perfiles]', 'U') IS NOT NULL
 GO
 IF OBJECT_ID(N'[dbo].[FormularioPermiso]', 'U') IS NOT NULL
     DROP TABLE [dbo].[FormularioPermiso];
+GO
+IF OBJECT_ID(N'[dbo].[PerfilFormulario]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[PerfilFormulario];
 GO
 
 -- --------------------------------------------------
@@ -82,6 +91,16 @@ GO
 CREATE TABLE [dbo].[Perfiles] (
     [Id] int IDENTITY(1,1) NOT NULL,
     [Nombre] nvarchar(max)  NOT NULL
+);
+GO
+
+-- Creating table 'Productos'
+CREATE TABLE [dbo].[Productos] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [Nombre] nvarchar(max)  NOT NULL,
+    [Descripcion] nvarchar(max)  NOT NULL,
+    [Precio] nvarchar(max)  NOT NULL,
+    [Stock] nvarchar(max)  NOT NULL
 );
 GO
 
@@ -124,6 +143,12 @@ GO
 -- Creating primary key on [Id] in table 'Perfiles'
 ALTER TABLE [dbo].[Perfiles]
 ADD CONSTRAINT [PK_Perfiles]
+    PRIMARY KEY CLUSTERED ([Id] ASC);
+GO
+
+-- Creating primary key on [Id] in table 'Productos'
+ALTER TABLE [dbo].[Productos]
+ADD CONSTRAINT [PK_Productos]
     PRIMARY KEY CLUSTERED ([Id] ASC);
 GO
 

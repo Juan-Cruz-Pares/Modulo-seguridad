@@ -10,6 +10,7 @@
     <EntitySet Name="Formularios" EntityType="Contexto.Store.Formularios" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="Permisos" EntityType="Contexto.Store.Permisos" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="Perfiles" EntityType="Contexto.Store.Perfiles" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Productos" EntityType="Contexto.Store.Productos" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="FormularioPermiso" EntityType="Contexto.Store.FormularioPermiso" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="PerfilFormulario" EntityType="Contexto.Store.PerfilFormulario" store:Type="Tables" Schema="dbo" />
     <AssociationSet Name="PerfilUsuario" Association="Contexto.Store.PerfilUsuario">
@@ -66,6 +67,16 @@
     </Key>
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Nombre" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Productos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Precio" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Stock" Type="nvarchar(max)" Nullable="false" />
   </EntityType>
   <EntityType Name="FormularioPermiso">
     <Key>
@@ -164,6 +175,7 @@
             <End Role="Perfil" EntitySet="Perfiles" />
             <End Role="Formulario" EntitySet="Formularios" />
           </AssociationSet>
+          <EntitySet Name="Productos" EntityType="Contexto.Producto" />
         </EntityContainer>
         <EntityType Name="Usuario">
           <Key>
@@ -225,6 +237,16 @@
           <End Type="Contexto.Perfil" Role="Perfil" Multiplicity="*" />
           <End Type="Contexto.Formulario" Role="Formulario" Multiplicity="*" />
         </Association>
+        <EntityType Name="Producto">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" Nullable="false" />
+          <Property Name="Descripcion" Type="String" Nullable="false" />
+          <Property Name="Precio" Type="String" Nullable="false" />
+          <Property Name="Stock" Type="String" Nullable="false" />
+        </EntityType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -266,6 +288,17 @@
         <MappingFragment StoreEntitySet="Perfiles">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Productos">
+      <EntityTypeMapping TypeName="IsTypeOf(Contexto.Producto)">
+        <MappingFragment StoreEntitySet="Productos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Stock" ColumnName="Stock" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

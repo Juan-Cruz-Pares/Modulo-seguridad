@@ -56,6 +56,7 @@
   <ItemGroup>
     <Compile Include="ControladoraFormularios.cs" />
     <Compile Include="ControladoraPerfiles.cs" />
+    <Compile Include="ControladoraProductos.cs" />
     <Compile Include="ControladoraUsuarios.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Seguridad.cs" />

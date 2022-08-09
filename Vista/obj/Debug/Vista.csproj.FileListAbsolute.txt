@@ -56,3 +56,6 @@ C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Vista\obj\Debug\Vista.Regis
 C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Vista\obj\Debug\Vista.MenuPrincipal.resources
 C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Vista\obj\Debug\Vista.FormularioListadoClientes.resources
 C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Vista\obj\Debug\Vista.FormularioGestionarUsuarios.resources
+C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Vista\obj\Debug\Vista.FormularioGestionProductos.resources
+C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Vista\obj\Debug\Vista.FormularioListadoProductos.resources
+C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Vista\obj\Debug\Vista.FormularioUsuario.resources
