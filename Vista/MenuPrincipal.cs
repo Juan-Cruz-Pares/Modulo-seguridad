@@ -23,7 +23,7 @@ namespace Vista
         {
             Usuario usuario = ControladoraUsuarios.obtenerInstancia().usuarioActual;
             List<Formulario> formularios = usuario.Perfil.Formulario.ToList();//Formularios habilitados para el perfil del usuario
-
+            
             formularios.ForEach((formulario) =>
             {
                 foreach (ToolStripMenuItem categoria in menuStrip1.Items)
@@ -48,12 +48,6 @@ namespace Vista
         private void listarClientesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FormularioListadoClientes form = new FormularioListadoClientes();
-            form.Show();
-        }
-
-        private void agregarToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FormularioUsuario form = new FormularioUsuario();
             form.Show();
         }
     }

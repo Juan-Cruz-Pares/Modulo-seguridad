@@ -30,9 +30,8 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.usuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gestionarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.listarClientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.agregarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.FormularioGestionarUsuarios = new System.Windows.Forms.ToolStripMenuItem();
+            this.FormularioListadoClientes = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,33 +48,27 @@
             // usuarioToolStripMenuItem
             // 
             this.usuarioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.gestionarToolStripMenuItem,
-            this.listarClientesToolStripMenuItem,
-            this.agregarToolStripMenuItem});
+            this.FormularioGestionarUsuarios,
+            this.FormularioListadoClientes});
             this.usuarioToolStripMenuItem.Name = "usuarioToolStripMenuItem";
             this.usuarioToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
             this.usuarioToolStripMenuItem.Text = "Usuario";
             // 
-            // gestionarToolStripMenuItem
+            // FormularioGestionarUsuarios
             // 
-            this.gestionarToolStripMenuItem.Name = "gestionarToolStripMenuItem";
-            this.gestionarToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
-            this.gestionarToolStripMenuItem.Text = "Gestionar";
-            this.gestionarToolStripMenuItem.Click += new System.EventHandler(this.gestionarToolStripMenuItem_Click);
+            this.FormularioGestionarUsuarios.Enabled = false;
+            this.FormularioGestionarUsuarios.Name = "FormularioGestionarUsuarios";
+            this.FormularioGestionarUsuarios.Size = new System.Drawing.Size(180, 22);
+            this.FormularioGestionarUsuarios.Text = "Gestionar";
+            this.FormularioGestionarUsuarios.Click += new System.EventHandler(this.gestionarToolStripMenuItem_Click);
             // 
-            // listarClientesToolStripMenuItem
+            // FormularioListadoClientes
             // 
-            this.listarClientesToolStripMenuItem.Name = "listarClientesToolStripMenuItem";
-            this.listarClientesToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
-            this.listarClientesToolStripMenuItem.Text = "Listar clientes";
-            this.listarClientesToolStripMenuItem.Click += new System.EventHandler(this.listarClientesToolStripMenuItem_Click);
-            // 
-            // agregarToolStripMenuItem
-            // 
-            this.agregarToolStripMenuItem.Name = "agregarToolStripMenuItem";
-            this.agregarToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
-            this.agregarToolStripMenuItem.Text = "Agregar";
-            this.agregarToolStripMenuItem.Click += new System.EventHandler(this.agregarToolStripMenuItem_Click);
+            this.FormularioListadoClientes.Enabled = false;
+            this.FormularioListadoClientes.Name = "FormularioListadoClientes";
+            this.FormularioListadoClientes.Size = new System.Drawing.Size(180, 22);
+            this.FormularioListadoClientes.Text = "Listar clientes";
+            this.FormularioListadoClientes.Click += new System.EventHandler(this.listarClientesToolStripMenuItem_Click);
             // 
             // MenuPrincipal
             // 
@@ -98,8 +91,7 @@
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem usuarioToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem gestionarToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem listarClientesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem agregarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem FormularioGestionarUsuarios;
+        private System.Windows.Forms.ToolStripMenuItem FormularioListadoClientes;
     }
 }

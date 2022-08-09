@@ -27,7 +27,7 @@ namespace Vista
 
         private void btnAccept_Click(object sender, EventArgs e)
         {
-            if (!ValidateEmail(email.Text)) {//Validamos formato de email
+            if (!Validaciones.ValidateEmail(email.Text)) {//Validamos formato de email
 
                 MessageBox.Show("Formato de email no valido");
                 return;
@@ -57,12 +57,5 @@ namespace Vista
             }
         }
 
-        private bool ValidateEmail(string email)
-        {            
-            Regex regex = new Regex(@"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$");
-            Match match = regex.Match(email);
-            
-            return match.Success;                
-        }
     }
 }

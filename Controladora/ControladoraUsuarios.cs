@@ -37,5 +37,20 @@ namespace Controladora
         {
             usuarioActual = u;
         }
+
+        public Usuario getListUserForName(string name)
+        {
+            return SingletonContexto.obtener_instancia().Contexto.Usuarios.FirstOrDefault(usuario => usuario.Nombre == name);
+        }
+        public Usuario getListUserForDNI(string dni)
+        {
+            return SingletonContexto.obtener_instancia().Contexto.Usuarios.FirstOrDefault(usuario => usuario.Dni == dni);
+        }
+        
+        public void deletUser(Usuario usuario)
+        {
+            SingletonContexto.obtener_instancia().Contexto.Usuarios.Remove(usuario);
+            SingletonContexto.obtener_instancia().Contexto.SaveChanges();
+        }
     }
 }

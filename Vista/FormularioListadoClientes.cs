@@ -22,6 +22,7 @@ namespace Vista
         private void FormularioClientes(object sender, EventArgs e)//Funcion cuando carga el formulario
         {
             List<Usuario> listaUsuarios = ControladoraUsuarios.obtenerInstancia().getListUser();
+            listaUsuarios = listaUsuarios.FindAll(u => u.Perfil.Nombre == "Cliente");
             dataGridView1.AutoGenerateColumns = false;
 
             dataGridView1.DataSource = listaUsuarios.Select(u => new

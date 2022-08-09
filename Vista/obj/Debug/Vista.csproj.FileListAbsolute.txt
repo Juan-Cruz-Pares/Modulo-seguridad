@@ -55,3 +55,4 @@ C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Vista\obj\Debug\Vista.Login
 C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Vista\obj\Debug\Vista.Register.resources
 C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Vista\obj\Debug\Vista.MenuPrincipal.resources
 C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Vista\obj\Debug\Vista.FormularioListadoClientes.resources
+C:\Users\pares\Desktop\Facultad\POO\Modulo-seguridad\Vista\obj\Debug\Vista.FormularioGestionarUsuarios.resources
